@@ -102,7 +102,7 @@
         </div>
           </Modal>
           {/if}
-          <div class="xs-popular-item xs-box-shadow">
+          <div class="xs-popular-item xs-box-shadow h-50">
             <div class="xs-item-header">
 
               <img src="{charity.thumbnail}" alt="">
@@ -132,7 +132,7 @@
 
               <div class="row xs-margin-0">
                 <div class="xs-round-avatar">
-                  <img src="{charity.profile_picture}" alt="">
+                  <img src="{charity.profile_picture}" alt="" class="img-thumbnail">
                 </div>
                 <div class="xs-avatar-title">
                   <a href="#"><span>By</span>{charity.profile_name}</a>
@@ -141,10 +141,10 @@
 
               <span class="xs-separetor"></span>
 
-              <button on:click={handleButton} data-toggle="modal" data-target="#exampleModal"
+              <a href="/donation/{charity.id}" data-toggle="modal" data-target="#exampleModal"
                 class="btn btn-primary btn-block">
                 Donate This Cause
-              </button>
+              </a>
             </div><!-- .xs-item-content END -->
           </div><!-- .xs-popular-item END -->
         </div>

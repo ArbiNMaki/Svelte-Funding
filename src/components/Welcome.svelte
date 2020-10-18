@@ -7,7 +7,7 @@
             <h2>Hunger is stalking the globe</h2>
             <p>Hundreds of thousands of children experiencing or witnessing assault <br> and other
               gender-based violence.</p>
-            <a href="#popularcause" class="btn btn-outline-primary">
+            <a href="#popularcause" class="btn btn-outline-primary text-light">
               View Causes
             </a>
           </div><!-- .xs-welcome-wraper END -->
